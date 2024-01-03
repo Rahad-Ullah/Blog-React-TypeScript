@@ -1,4 +1,4 @@
-import { PostProps } from "../../types/Types";
+import { PostProps } from "../../types/types";
 
 const PostCard = ({title, body}: PostProps) => {
     return (

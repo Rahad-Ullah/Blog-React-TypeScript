@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import PostCard from "./PostCard";
-import { PostProps } from "../../types/Types";
+import { PostProps } from "../../types/types";
 
 const Posts = () => {
     const [posts, setPosts] = useState([])

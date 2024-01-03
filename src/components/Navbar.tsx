@@ -1,7 +1,7 @@
 
 const Navbar = () => {
     return (
-        <div className="py-6 shadow-lg sticky top-0 z-50 bg-white">
+        <div className="py-4 shadow-lg sticky top-0 z-50 bg-white">
             <div className="flex justify-between items-center gap-6 w-4/5 mx-auto">
                 <div>
                     <h1 className="text-3xl font-bold text-purple-600">{'<Dev News/>'}</h1>
