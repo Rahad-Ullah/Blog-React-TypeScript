@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar"
 import Events from "./pages/Events/Events"
 import Posts from "./pages/Posts/Posts"
 import State from "./pages/State/State"
+import UseRef from "./pages/UseRef/UseRef"
 import Parent from "./pages/children/Parent"
 import SecondChild from "./pages/children/SecondChild"
 
@@ -20,6 +21,7 @@ function App() {
           </Parent>
         </div>
         <State></State>
+        <UseRef></UseRef>
         <div>
           <Posts></Posts>
         </div>
