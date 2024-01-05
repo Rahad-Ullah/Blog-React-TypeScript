@@ -5,6 +5,7 @@ import State from "./pages/State/State"
 import UseRef from "./pages/UseRef/UseRef"
 import Parent from "./pages/children/Parent"
 import SecondChild from "./pages/children/SecondChild"
+import ShapeList from "./pages/exclude/ShapeList"
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         </div>
         <State></State>
         <UseRef></UseRef>
+        <ShapeList></ShapeList>
         <div>
           <Posts></Posts>
         </div>
